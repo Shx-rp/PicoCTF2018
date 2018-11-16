@@ -68,3 +68,15 @@ i set it to that url and got the flag
 
 ### Flag
 **picoCTF{th3_w0rld_1s_4_danger0us_pl4c3_3lli0t_c4075}**
+
+## Truly an Artist
+
+### Question
+Can you help us find the flag in this Meta-Material? You can also find the file in /problems/truly-an-artist_2_61a3ed7216130ab1c2b2872eeda81348. 
+
+### Answer
+the file was a picture and also the question gave us a hint at what to do so for that i examined the Metadata and EXIF files of the pic
+and in the Artist label there was the flag
+
+### Flag
+**picoCTF{look_in_image_7e31505f}**
