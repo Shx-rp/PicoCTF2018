@@ -62,7 +62,7 @@ Do you see the same things I see? The glimpses of the flag hidden away? http://2
 
 ## Answer
 This time there is no login page so i looked at the name and noticed it said robots and immediatelly thought of **robots.txt**
-i set the url to http://2018shell3.picoctf.com:15298/**robots.txt**
+i set the url to http://2018shell3.picoctf.com:15298/robots.txt
 and noticed that in the disallow message it had a .html url
 i set it to that url and got the flag
 
