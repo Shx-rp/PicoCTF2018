@@ -80,3 +80,15 @@ and in the Artist label there was the flag
 
 ### Flag
 **picoCTF{look_in_image_7e31505f}**
+
+## buttons
+
+### Question
+There is a website running at http://2018shell3.picoctf.com:18342 (link). Try to see if you can push their buttons. 
+
+### Answer
+Ok this one got me confused a bit in the beggining. i clicked on the first then the second and it trolled me. i got mad. after that i tried analysing the HTTP requests it made. i noticed that the first one made a POST request and the second one made a GET request
+after sending a POST request in the second button it gave me a response. it was the flag
+
+### Flag
+**picoCTF{button_button_whose_got_the_button_25a99f84}**
