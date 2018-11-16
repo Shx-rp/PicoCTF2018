@@ -93,7 +93,7 @@ after sending a POST request in the second button it gave me a response. it was 
 ### Flag
 **picoCTF{button_button_whose_got_the_button_25a99f84}**
 
-## No Login
+## No Login (Web exploitation)
 
 ### Question
 Looks like someone started making a website but never got around to making a login, but I heard there was a flag if you were the admin. http://2018shell3.picoctf.com:52920 (link) 
@@ -104,7 +104,7 @@ so this one got me confused a lot. i tried SQL injections in the suposed login b
 ### Flag
 **picoCTF{n0l0g0n_n0_pr0bl3m_3184f702}**
 
-## Secret Agent
+## Secret Agent (Web exploitation)
 
 ### Question
 Here's a little website that hasn't fully been finished. But I heard google gets all your info anyway. http://2018shell3.picoctf.com:3827 (link)
@@ -115,7 +115,7 @@ after opening it was another one without login so no SQL injections. after click
 ### Flag
 **picoCTF{s3cr3t_ag3nt_m4n_12387c22}**
 
-## The Vault
+## The Vault (Web exploitation)
 
 ### Question
 There is a website running at http://2018shell3.picoctf.com:53261 (link). Try to see if you can login! 
