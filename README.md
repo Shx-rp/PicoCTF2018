@@ -43,3 +43,28 @@ inspected elements and found nothing then i inspected the sources and found thee
 
 ### Flag
 **picoCTF{ur_4_real_1nspect0r_g4dget_e96dd105}**
+
+## Irish Name Repo
+
+### Question
+There is a website running at http://2018shell3.picoctf.com:59464 (link). Do you think you can log us in? Try to see if you can login!
+
+### Answer
+after opening the page it had a admin login so i performed a simple **SQL injection** and logged in
+
+### Flag
+**picoCTF{con4n_r3411y_1snt_1r1sh_d121ca0b}**
+
+### Mr. Robots
+
+### Question
+Do you see the same things I see? The glimpses of the flag hidden away? http://2018shell3.picoctf.com:15298 (link) 
+
+## Answer
+This time there is no login page so i looked at the name and noticed it said robots and immediatelly thought of **robots.txt**
+i set the url to http://2018shell3.picoctf.com:15298/**robots.txt**
+and noticed that in the disallow message it had a .html url
+i set it to that url and got the flag
+
+### Flag
+**picoCTF{th3_w0rld_1s_4_danger0us_pl4c3_3lli0t_c4075}**
