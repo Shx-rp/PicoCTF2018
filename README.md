@@ -92,3 +92,36 @@ after sending a POST request in the second button it gave me a response. it was 
 
 ### Flag
 **picoCTF{button_button_whose_got_the_button_25a99f84}**
+
+## No Login
+
+### Question
+Looks like someone started making a website but never got around to making a login, but I heard there was a flag if you were the admin. http://2018shell3.picoctf.com:52920 (link) 
+
+### Answer
+so this one got me confused a lot. i tried SQL injections in the suposed login but it didnt even open. after i looked at the hints i noticed it was talking about cookies, and that it was looking for a admin value in them. i used a cookie editor to change it and made a session cookie that had the value admin=True and after clicking Flag it gave me it.
+
+### Flag
+**picoCTF{n0l0g0n_n0_pr0bl3m_3184f702}**
+
+## Secret Agent
+
+### Question
+Here's a little website that hasn't fully been finished. But I heard google gets all your info anyway. http://2018shell3.picoctf.com:3827 (link)
+
+### Answer
+after opening it was another one without login so no SQL injections. after clicking flag it identefied my User Agent. so i tried changing My User agent to GoogleBot and it gave me the flag.
+
+### Flag
+**picoCTF{s3cr3t_ag3nt_m4n_12387c22}**
+
+## The Vault
+
+### Question
+There is a website running at http://2018shell3.picoctf.com:53261 (link). Try to see if you can login! 
+
+### Answer
+this time there was a login page and so i tried some simple SQL injection commands and it worked
+
+### Flag
+**picoCTF{w3lc0m3_t0_th3_vau1t_23495366}**
