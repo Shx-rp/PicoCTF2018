@@ -170,7 +170,7 @@ inspecting the source code u find the script that detects the password so that m
   ### Question
   
   ### Answer
-  So i tried doing a SQLi but it didnt work and after taking a look at what the server was sending i realized that it sent a comment saying Admin=False after the login so i turned it to Admin=True and after that it printed out the Flag
+  So i tried doing a SQLi but it didnt work and after taking a look at what the server was sending i realized that it sent a comment setting the flag "Admin=False" after the login so i turned it to "Admin=True" and after that it printed out the Flag
   
   ### Flag
   ***picoCTF{l0g1ns_ar3nt_r34l_a280e12c}***
